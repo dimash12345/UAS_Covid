@@ -37,7 +37,7 @@ class home extends StatelessWidget {
                 Container(
                   margin: EdgeInsets.all(10),
                   padding: EdgeInsets.all(20),
-                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.yellow[50]),
+                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.yellow[60]),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -110,7 +110,7 @@ class home extends StatelessWidget {
                 Container(
                   margin: EdgeInsets.all(5),
                   padding: EdgeInsets.all(5),
-                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.green[50]),
+                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.yellow[60]),
                   child: Column(
                     children: [
                       Text('Corona Virus Measures To Take', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
@@ -146,7 +146,7 @@ class home extends StatelessWidget {
                                   ),
                                   Container(
                                     padding: EdgeInsets.all(5),
-                                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(5), color: Colors.blue[200]),
+                                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(5), color: Colors.red[200]),
                                     child: Text('See more ->'),
                                   )
                                 ],
