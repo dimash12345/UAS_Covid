@@ -8,7 +8,7 @@ class home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.green[100],
+        backgroundColor: Colors.yellow[100],
         centerTitle: true,
         title: Text(
           'COVID-19 VIRUS TRACKER',
@@ -37,7 +37,7 @@ class home extends StatelessWidget {
                 Container(
                   margin: EdgeInsets.all(10),
                   padding: EdgeInsets.all(20),
-                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.green[50]),
+                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.yellow[50]),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
