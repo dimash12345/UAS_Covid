@@ -8,7 +8,7 @@ class home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.yellow[100],
+        backgroundColor: Colors.red[100],
         centerTitle: true,
         title: Text(
           'COVID-19 VIRUS TRACKER',
@@ -37,7 +37,7 @@ class home extends StatelessWidget {
                 Container(
                   margin: EdgeInsets.all(10),
                   padding: EdgeInsets.all(20),
-                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.yellow[60]),
+                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.red[50]),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -110,7 +110,7 @@ class home extends StatelessWidget {
                 Container(
                   margin: EdgeInsets.all(5),
                   padding: EdgeInsets.all(5),
-                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.yellow[60]),
+                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.red[50]),
                   child: Column(
                     children: [
                       Text('Corona Virus Measures To Take', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
@@ -146,7 +146,7 @@ class home extends StatelessWidget {
                                   ),
                                   Container(
                                     padding: EdgeInsets.all(5),
-                                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(5), color: Colors.green[200]),
+                                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(5), color: Colors.blue[200]),
                                     child: Text('See more ->'),
                                   )
                                 ],
@@ -174,7 +174,7 @@ class home extends StatelessWidget {
               left: 10,
             ),
             height: 150,
-            decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.blue[100]),
+            decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.yellow[100]),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
