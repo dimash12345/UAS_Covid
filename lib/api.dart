@@ -13,7 +13,7 @@ class BelajarGetData extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Data Covid Di tiap Negara'),
-        backgroundColor: Colors.green[200],
+        backgroundColor: Colors.blue[200],
       ),
       body: Container(
         child: FutureBuilder<List<dynamic>>(
