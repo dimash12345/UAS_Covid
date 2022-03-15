@@ -146,7 +146,7 @@ class home extends StatelessWidget {
                                   ),
                                   Container(
                                     padding: EdgeInsets.all(5),
-                                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(5), color: Colors.red[200]),
+                                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(5), color: Colors.green[200]),
                                     child: Text('See more ->'),
                                   )
                                 ],
